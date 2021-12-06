@@ -866,6 +866,14 @@ img {
     margin-bottom: var(--mb-3);
 }
 
+.contact .contact__button a {
+    color: #fff;
+}
+
+.contact .contact__button a:hover {
+    color: #fff;
+}
+
 
 /*========== FOOTER ==========*/
 
