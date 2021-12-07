@@ -480,59 +480,6 @@ img {
 }
 
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-
-.breadcrumbs {
-    padding: 15px 0;
-    background: #475E2E;
-    min-height: 40px;
-    margin-top: 70px;
-    color: #fff;
-}
-
-@media (max-width: 992px) {
-    .breadcrumbs {
-        margin-top: 57px;
-    }
-}
-
-.breadcrumbs h2 {
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.breadcrumbs ol {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0 0 10px 0;
-    margin: 0;
-    font-size: 14px;
-}
-
-.breadcrumbs ol a {
-    color: #fff;
-    transition: 0.3s;
-}
-
-.breadcrumbs ol a:hover {
-    text-decoration: underline;
-}
-
-.breadcrumbs ol li+li {
-    padding-left: 10px;
-}
-
-.breadcrumbs ol li+li::before {
-    display: inline-block;
-    padding-right: 10px;
-    color: #8894f6;
-    content: "/";
-}
-
-
 /*========== ABOUT ==========*/
 
 #about {
@@ -1172,4 +1119,373 @@ img {
 .bullet-side-navbar .navbullet>li a:hover>span {
     color: black;
     display: block;
+}
+
+
+/*--------------------------------------------------------------
+# About-plastik
+--------------------------------------------------------------*/
+
+.about-plastik {
+    padding: 150px 0 15px 0;
+}
+
+.btn.btn-about-plastik {
+    color: #475E2E;
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 10px 30px 10px 30px;
+    font-size: 12px;
+    margin-top: 20px;
+    border: 2px solid #475E2E;
+}
+
+.about-plastik .box {
+    padding: 15px 15px 15px 15px;
+    box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.about-plastik .boxcontent {
+    padding: 0 25px 25px 25px;
+    text-align: left;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.about-plastik .boxcontent .tag {
+    padding: 20px 0;
+}
+
+.about-plastik .boxcontent span {
+    color: #fff;
+    background-color: #475E2E;
+    border-radius: 6px;
+    padding: 10px 30px 10px 30px;
+    font-size: 12px;
+    margin-top: 100px;
+}
+
+.about-plastik .boxcontent {
+    padding: 0 25px 25px 25px;
+    text-align: left;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.about-plastik .boxcontent2 {
+    padding: 50px 25px 25px 25px;
+    text-align: right;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.about-plastik .boximg img {
+    transition: 0.5s;
+    transform: scale(1.1);
+    width: 100%;
+    border-radius: 30px;
+    padding: 70px 25px 20px 25px;
+}
+
+.about-plastik .boxcontent h3 {
+    font-size: 36px;
+    color: #475E2E;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.about-plastik .boxcontent p {
+    font-size: 14px;
+    color: #000000;
+}
+
+.about-plastik .boxcontent2 h3 {
+    font-size: 16px;
+    color: #475E2E;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.about-plastik .boxcontent2 p {
+    font-size: 14px;
+    color: #475E2E;
+}
+
+.about-plastik .boxcontent:hover {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.about-plastik .box:hover img {
+    transform: scale(1);
+}
+
+
+/*--------------------------------------------------------------
+# Solution-plastik
+--------------------------------------------------------------*/
+
+.solution-plastik .boxcontent {
+    padding: 0 25px 25px 25px;
+    text-align: left;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.solution-plastik .boxcontent .tag {
+    padding: 20px 0;
+}
+
+.solution-plastik .boxcontent span {
+    color: #fff;
+    background-color: #475E2E;
+    border-radius: 6px;
+    padding: 10px 30px 10px 30px;
+    font-size: 12px;
+    margin-top: 100px;
+}
+
+.solution-plastik .boxcontent {
+    padding: 0 25px 25px 25px;
+    text-align: left;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.solution-plastik .boxcontent2 {
+    padding: 50px 25px 25px 25px;
+    text-align: right;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.solution-plastik .boximg img {
+    transition: 0.5s;
+    transform: scale(1.1);
+    width: 100%;
+    border-radius: 30px;
+    padding: 70px 25px 20px 25px;
+}
+
+.solution-plastik .boxcontent h3 {
+    font-size: 24px;
+    color: #475E2E;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.solution-plastik .boxcontent h2 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.solution-plastik .boxcontent p {
+    font-size: 14px;
+    color: #000000;
+}
+
+.solution-plastik .boxcontent:hover {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.solution-plastik .box:hover img {
+    transform: scale(1);
+}
+
+
+/*--------------------------------------------------------------
+# Chemical recycling Plustik.id
+--------------------------------------------------------------*/
+
+.recycling-plastik {
+    padding: 80px 0 15px 0;
+}
+
+.btn.btn-recycling-plastik {
+    color: #475E2E;
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 10px 30px 10px 30px;
+    font-size: 12px;
+    margin-top: 20px;
+    border: 2px solid #475E2E;
+}
+
+.recycling-plastik .box {
+    padding: 15px 15px 15px 15px;
+    box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.recycling-plastik .boxcontent {
+    padding: 0 25px 25px 25px;
+    text-align: left;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.recycling-plastik .boxcontent .tag {
+    padding: 20px 0;
+}
+
+.recycling-plastik .boxcontent span {
+    color: #fff;
+    background-color: #475E2E;
+    border-radius: 6px;
+    padding: 10px 30px 10px 30px;
+    font-size: 12px;
+    margin-top: 100px;
+}
+
+.recycling-plastik .boxcontent {
+    padding: 0 25px 25px 25px;
+    text-align: left;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.recycling-plastik .boximg img {
+    transition: 0.5s;
+    transform: scale(1.1);
+    width: 100%;
+    border-radius: 30px;
+    padding: 40px 25px 20px 25px;
+}
+
+.recycling-plastik .boxcontent h3 {
+    font-size: 36px;
+    color: #475E2E;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.recycling-plastik .boxcontent p {
+    font-size: 14px;
+    color: #000000;
+}
+
+.recycling-plastik .boxcontent2 h3 {
+    font-size: 16px;
+    color: #475E2E;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.recycling-plastik .boxcontent2 p {
+    font-size: 14px;
+    color: #475E2E;
+}
+
+.recycling-plastik .boxcontent:hover {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.recycling-plastik .box:hover img {
+    transform: scale(1);
+}
+
+
+/*--------------------------------------------------------------
+# Circular Economy Plustik.id
+--------------------------------------------------------------*/
+
+.Circular-plastik {
+    padding: 80px 0 15px 0;
+}
+
+.btn.btn-Circular-plastik {
+    color: #475E2E;
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 10px 30px 10px 30px;
+    font-size: 12px;
+    margin-top: 20px;
+    border: 2px solid #475E2E;
+}
+
+.Circular-plastik .box {
+    padding: 15px 15px 15px 15px;
+    box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.Circular-plastik .boxcontent {
+    padding: 0 25px 25px 25px;
+    text-align: left;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.Circular-plastik .boxcontent .tag {
+    padding: 20px 0;
+}
+
+.Circular-plastik .boxcontent span {
+    color: #fff;
+    background-color: #475E2E;
+    border-radius: 6px;
+    padding: 10px 30px 10px 30px;
+    font-size: 12px;
+    margin-top: 100px;
+}
+
+.Circular-plastik .boxcontent {
+    padding: 0 25px 25px 25px;
+    text-align: left;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.Circular-plastik .boximg img {
+    transition: 0.5s;
+    transform: scale(1.1);
+    width: 100%;
+    border-radius: 30px;
+    padding: 40px 25px 20px 25px;
+}
+
+.Circular-plastik .boxcontent h3 {
+    font-size: 36px;
+    color: #475E2E;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.Circular-plastik .boxcontent p {
+    font-size: 14px;
+    color: #000000;
+}
+
+.Circular-plastik .boxcontent2 h3 {
+    font-size: 16px;
+    color: #475E2E;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.Circular-plastik .boxcontent2 p {
+    font-size: 14px;
+    color: #475E2E;
+}
+
+.Circular-plastik .boxcontent:hover {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.Circular-plastik .box:hover img {
+    transform: scale(1);
 }
