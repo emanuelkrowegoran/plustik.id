@@ -773,6 +773,7 @@ section {
     right: -300px;
     bottom: 0;
     z-index: 999;
+    height: 670px;
 }
 
 .menu_overlay {
@@ -788,7 +789,6 @@ section {
 
 .menu_close {
     background: url(../img/icon-menu/close.png) no-repeat scroll center center transparent;
-    opacity: 0;
     position: absolute;
     width: 35px;
     height: 35px;
@@ -860,4 +860,14 @@ section {
 
 .menu_list li a:hover {
     color: #000;
+}
+
+.iconmenu-social {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.iconmenu-social:hover {
+    font-size: 22px;
+    color: #a5a5a5;
 }
