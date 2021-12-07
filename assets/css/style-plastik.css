@@ -1424,10 +1424,11 @@ img {
 }
 
 .Circular-plastik .boxcontent {
-    padding: 0 25px 25px 25px;
+    padding: 100px 25px 25px 25px;
     text-align: left;
     transition: 0.3s;
     height: 100%;
+    margin-top: 50px;
 }
 
 .Circular-plastik .boxcontent .tag {
