@@ -316,7 +316,13 @@ section {
     background-color: #f9f9f9;
 }
 
-.blog .box {
+@media screen and (max-width: 768px) {
+    .blog .boxblog:hover img {
+        transform: scale(1);
+    }
+}
+
+.blog .boxblog {
     padding: 30px;
     box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
     transition: 0.3s;
@@ -325,7 +331,7 @@ section {
     background-color: #fff;
 }
 
-.blog .box img {
+.blog .boxblog img {
     padding: 10px 10px 40px 10px;
     transition: 0.5s;
     transform: scale(1.1);
@@ -333,7 +339,7 @@ section {
     border-radius: 20px;
 }
 
-.blog .box h3 {
+.blog .boxblog h3 {
     font-size: 16px;
     color: #475E2E;
     font-weight: 700;
@@ -341,17 +347,17 @@ section {
     text-align: left;
 }
 
-.blog .box p {
+.blog .boxblog p {
     font-size: 14px;
     color: #475E2E;
     text-align: left;
 }
 
-.blog .box:hover {
+.blog .boxblog:hover {
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
 }
 
-.blog .box:hover img {
+.blog .boxblog:hover img {
     transform: scale(1);
 }
 
@@ -703,16 +709,30 @@ section {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .menu_button {
+        right: 15px;
+    }
+    .iconmenu-social {
+        padding-right: 20px;
+    }
+    .nav__logo {
+        width: 50px;
+    }
+    .l-header {
+        padding: 5px 0;
+    }
+}
+
 .menu_button {
     background: url(../img/icon-menu/menu.png) no-repeat scroll center center transparent;
     padding: 5px;
     position: absolute;
     width: 30px;
     height: 30px;
-    right: 100px;
-    top: 20px;
     text-indent: -9999px;
     transition: all 0.3s;
+    margin-left: 20px;
 }
 
 .menu_wrap {
