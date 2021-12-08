@@ -508,6 +508,54 @@ img {
     }
 }
 
+@media screen and (max-width: 768px) {
+    #about-plastik .boxcontent h3 {
+        font-size: 18px;
+    }
+    #about-plastik .boxcontent p {
+        font-size: 12px;
+    }
+    #about-plastik .boximg img {
+        padding: 0 40px;
+    }
+    #solution-plastik .boxcontent h3 {
+        font-size: 18px;
+    }
+    #solution-plastik .boxcontent p {
+        font-size: 12px;
+    }
+    #solution-plastik .boxcontent h2 {
+        font-size: 16px;
+    }
+    #solution-plastik .boximg img {
+        padding: 0 40px;
+    }
+    #recycling-plastik .boxcontent h3 {
+        font-size: 18px;
+    }
+    #recycling-plastik .boxcontent p {
+        font-size: 12px;
+    }
+    #recycling-plastik .boximg img {
+        padding: 0 40px;
+    }
+    #Circular-plastik .boxcontent h3 {
+        font-size: 18px;
+    }
+    #Circular-plastik .boxcontent p {
+        font-size: 12px;
+    }
+    #Circular-plastik .boximg img {
+        padding: 0 40px;
+    }
+    .Circular-plastik {
+        padding: 10px 0 -15px 0;
+    }
+    #hero {
+        height: 10px;
+    }
+}
+
 #hero {
     height: 100vh;
     width: 100%;
@@ -545,7 +593,6 @@ img {
     top: 0;
     left: 0;
     z-index: 15;
-    background: url('../texture.png');
 }
 
 #hero .caption {
@@ -1304,7 +1351,7 @@ img {
 --------------------------------------------------------------*/
 
 .recycling-plastik {
-    padding: 80px 0 15px 0;
+    padding: 20px 0 15px 0;
 }
 
 .btn.btn-recycling-plastik {
@@ -1400,7 +1447,7 @@ img {
 --------------------------------------------------------------*/
 
 .Circular-plastik {
-    padding: 80px 0 15px 0;
+    padding: 20px 0 15px 0;
 }
 
 .btn.btn-Circular-plastik {
