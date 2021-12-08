@@ -18,16 +18,21 @@
      * Easy event listener function
      */
     const on = (type, el, listener, all = false) => {
-        let selectEl = select(el, all)
-        if (selectEl) {
-            if (all) {
-                selectEl.forEach(e => e.addEventListener(type, listener))
-            } else {
-                selectEl.addEventListener(type, listener)
+            let selectEl = select(el, all)
+            if (selectEl) {
+                if (all) {
+                    selectEl.forEach(e => e.addEventListener(type, listener))
+                } else {
+                    selectEl.addEventListener(type, listener)
+                }
             }
         }
-    }
-
+        /**
+         * Initiate glightbox 
+         */
+    const glightbox = GLightbox({
+        selector: '.glightbox'
+    });
     /**
      * Easy on scroll event listener 
      */
